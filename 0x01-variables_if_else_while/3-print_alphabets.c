@@ -7,13 +7,17 @@
  */
 int main(void)
 {
-char alph = "abcdefghijklmnopqqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i;
 
-for (i = 0; i < 52; i++)
-{
-	putchar(alph[i]);
-}
-putchar('\n');
-return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
