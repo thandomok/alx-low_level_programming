@@ -9,15 +9,18 @@
  */
 int main(void)
 {
-	int i;
+	char c;
 
-	for (i = 97; i < 123; i != 113)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (i != 101 && i != 113)
-{
-		putchar(i);
-}
-}
-		putchar('\n');
-		return (0);
+		if (c == 'q' || c == 'e')
+		{
+		}
+		else
+		{
+			putchar(c);
+		}
+	}
+	putchar('\n');
+	return (0);
 }
